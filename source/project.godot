@@ -19,10 +19,6 @@ config/name="Dodge The Creeps Tutorial"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
-[debug]
-
-settings/stdout/print_fps=true
-
 [display]
 
 window/size/width=480
@@ -37,6 +33,8 @@ pointing/emulate_touch_from_mouse=true
 [rendering]
 
 quality/driver/driver_name="GLES2"
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
 environment/default_environment="res://default_env.tres"
